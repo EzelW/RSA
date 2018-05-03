@@ -45,12 +45,15 @@ def makekeys(p, q):
   print()
   welcome()
 
-
+stillgoing = True
 
 
 def welcome():
-  stillgoing = True
+  global message, encrpted_message, decrypted_message, stillgoing
   while stillgoing:
+    message = ""
+    encrpted_message = ""
+    decrypted_message = ""
     print('What would you like to do?')
     print('\t A. Make public/private keys')
     print('\t B. Encrpt a message')
