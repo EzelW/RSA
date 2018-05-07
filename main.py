@@ -4,6 +4,7 @@ LUT_encryption = dict()
 LUT_decryption = dict()
 publickey = []
 privatekey = []
+stillgoing = True
 n = 0
 e = 0
 d = 0
@@ -45,7 +46,7 @@ def makekeys(p, q):
   print()
   welcome()
 
-stillgoing = True
+
 
 
 def welcome():
